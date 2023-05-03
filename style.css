@@ -22,10 +22,12 @@ body {
 }
 
 .btn {
+  display: block;
+  text-align: center;
   cursor: pointer;
   outline: none;
-  width: 120px;
-  height: 75px;
+  text-transform: uppercase;
+  padding: 10px 20px;
   font-family: inherit;
   font-size: 25px;
   color: #fff;

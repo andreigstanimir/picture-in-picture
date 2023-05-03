@@ -1,6 +1,8 @@
 const videoElement = document.querySelector('.video');
 const btn = document.querySelector('.btn');
 
+let count = 0;
+
 // Prompt to select a media stream, pass to video element, then play
 const selectMediaStream = async function () {
   try {
@@ -26,5 +28,5 @@ btn.addEventListener('click', async () => {
   btn.disable = false;
 });
 
-// On Load
+// On load
 selectMediaStream();
